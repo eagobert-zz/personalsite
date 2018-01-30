@@ -1,0 +1,30 @@
+{
+  "name": "erin_agobert_personal_site",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eagobert/eagobert.github.io-personalsite.git"
+  },
+  "keywords": [
+    "\"Erin",
+    "Agobert\"",
+    "\"NSS\"",
+    "\"Portfolio\"",
+    "\"AngularJS\""
+  ],
+  "author": "Erin Agobert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagobert/eagobert.github.io-personalsite/issues"
+  },
+  "homepage": "https://github.com/eagobert/eagobert.github.io-personalsite#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8"
+  }
+}
