@@ -25,6 +25,8 @@
   "homepage": "https://github.com/eagobert/eagobert.github.io-personalsite#readme",
   "dependencies": {
     "angular": "^1.6.8",
-    "angular-route": "^1.6.8"
+    "angular-route": "^1.6.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1"
   }
 }
