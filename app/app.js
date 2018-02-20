@@ -2,6 +2,8 @@ const myApp = angular.module('myApp', [])
 
 // Begin Router
 
+
+
 //Begin Controller Functions
 myApp.controller("MyAppCtrl", function($scope){
     
