@@ -15,4 +15,5 @@ myApp.controller("MyAppCtrl", function($scope){
         $(this).toggleClass("active");
       });
     }
+
   })
