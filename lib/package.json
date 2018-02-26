@@ -50,6 +50,9 @@
   "description": "A stylish portfolio HTML template built with Bootstrap",
   "devDependencies": {
     "browser-sync": "2.23.6",
+    "grunt": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "3.9.2",
     "gulp-header": "2.0.1",
