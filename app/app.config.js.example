@@ -1,0 +1,7 @@
+myApp.config("FIREBASE_CONFIG", {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    storageBucket: "",
+    messagingSenderId: ""
+})
