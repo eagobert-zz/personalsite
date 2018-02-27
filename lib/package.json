@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "_from": "startbootstrap-stylish-portfolio",
   "_id": "startbootstrap-stylish-portfolio@4.0.0",
   "_inBundle": false,
@@ -82,34 +81,4 @@
   },
   "title": "Stylish Portfolio",
   "version": "4.0.0"
-=======
-  "name": "erin_agobert_personal_site",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/eagobert/eagobert.github.io-personalsite.git"
-  },
-  "keywords": [
-    "\"Erin",
-    "Agobert\"",
-    "\"NSS\"",
-    "\"Portfolio\"",
-    "\"AngularJS\""
-  ],
-  "author": "Erin Agobert",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eagobert/eagobert.github.io-personalsite/issues"
-  },
-  "homepage": "https://github.com/eagobert/eagobert.github.io-personalsite#readme",
-  "dependencies": {
-    "angular": "^1.6.8",
-    "angular-route": "^1.6.8"
-  }
->>>>>>> 9923d7354cbe07ae4fd8368bea5defae7ca4c2e0
 }

@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Erin Agobert</title>
-</head>
-<body ng-app="personalApp">
-    <div ng-view></div>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio - Erin Agobert</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./lib/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./lib/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500|Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    <link href="./lib/node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./lib/node_modules/startbootstrap-stylish-portfolio/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top" ng-app="myApp" ng-controller="appCtrl">
+    
+    <div ng-include="'app/partials/home.html'"></div>
+    <div ng-include="'app/partials/about-me.html'"></div>
+    <div ng-include="'app/partials/technologies.html'"></div>
+    <div ng-include="'app/partials/portfolio.html'"></div>
+    <div ng-include="'app/partials/contact.html'"></div>
+    <div ng-include="'app/partials/footer.html'"></div>
 
 
-    <!-- Scripts -->
- 
-    <script src="./lib/node_modules/angular/angular.js"></script>
-    <script src="./lib/node_modules/angular-route/angular-route.js"></script>
-</body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/node_modules/angular/angular.min.js"></script>
+    <script src="./lib/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./lib/node_modules/jquery.easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="./lib/node_modules/startbootstrap-stylish-portfolio/js/stylish-portfolio.js"></script>
+    
+    <!-- Controller Scripts -->
+    <script src="./app/app.js"></script>
+    <script src="./app/app.config.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+  </body>
+
 </html>
