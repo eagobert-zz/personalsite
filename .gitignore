@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 	.DS_Store
 	node_modules
 	build
 	app/app.config.js
-=======
-node_modules
-.DS_Store (for MAC users)
-build
-.app.config.js
->>>>>>> 9923d7354cbe07ae4fd8368bea5defae7ca4c2e0
