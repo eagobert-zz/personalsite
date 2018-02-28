@@ -1,7 +1,14 @@
-myApp.config("FIREBASE_CONFIG", {
+// Initialize Firebase
+
+app.config(function(){
+    var config ={
     apiKey: "",
     authDomain: "",
     databaseURL: "",
     storageBucket: "",
     messagingSenderId: ""
+    }
+    
+    firebase.initializeApp(config);
+
 })

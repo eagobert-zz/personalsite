@@ -1,11 +1,11 @@
-const myApp = angular.module('myApp', [])
+const app = angular.module("app", ["firebase"]);
 
 // Begin Router
 
 
 
 //Begin Controller Functions
-myApp.controller("appCtrl", function ($scope, $http) {
+app.controller("appCtrl", function ($scope, $http) {
 
   // Opens and closes the sidebar menu
   // $scope.menuController = function () {
@@ -19,31 +19,11 @@ myApp.controller("appCtrl", function ($scope, $http) {
 })
 
   //Controls form data input and submission by email
-myApp.controller("formCtrl", ["$scope", "$http", function ($scope, $http, $httpParamSerializerJQLike) {
+app.controller("formCtrl", function ($scope, $http, $timeout) {
 
   $scope.formData = {};
 
+  $scope.submitForm = function(){}
 
-  $scope.formSubmit = function(contactForm){
-    $http({
-      method : 'POST',
-      url : 'contactform.php',
-      data : $httpParamSerializerJQLike($scope.formData),
-      headers : {'Content-Type': 'application/x-www-form-urlencoded'}
-    })
-    .success(function(data){
-      console.log(data);
 
-      if(!data.success){
-        $scope.errorFirstName = data.errors.firstName;
-        $scope.errorLastName = data.errors.lastName;
-        $scope.errorEmail = data.errors.email;
-        // $scope.errorPhone = data.errors.phone;
-        // $scope.errorComments = data.errors.comments;
-      } else {
-        $scope.message = data.message;
-      }
-    })
-  }
-
-  }])
+  })
