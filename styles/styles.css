@@ -1,6 +1,7 @@
 /* Header Styling */
 .text-muted{
     font-family: 'Special Elite', cursive;
+    padding: 15px
 }
 
 .display-4{
@@ -33,3 +34,10 @@
   }
 
   /* About me styling */
+.h5{
+    padding: 90px 115px 0 0;
+    line-height: 1.5;
+}
+
+/* Portfolio styling */
+
