@@ -32,10 +32,13 @@
     "angular": "^1.6.8",
     "angularfire": "^2.3.0",
     "bootstrap": "4.0.0",
-    "firebase": "^3.0.0",
+    "debug": "^2.6.9",
+    "firebase": "^3.9.0",
     "font-awesome": "4.7.0",
+    "hoek": "^4.2.1",
     "jquery": "^3.3.1",
     "jquery.easing": "^1.4.1",
+    "lodash": "^4.17.10",
     "popper.js": "^1.12.9",
     "simple-line-icons": "^2.4.1"
   },
@@ -48,6 +51,6 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-sass": "^2.1.0"
+    "grunt-sass": "^3.0.1"
   }
 }
